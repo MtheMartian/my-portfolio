@@ -2,11 +2,11 @@
   min-height: 300px;
   background: rgb(0, 90, 0);
   position: fixed;
-  top: 50px;
+  top: 0;
   left: 10%;
   right: 10%;
   border-radius: 20px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }

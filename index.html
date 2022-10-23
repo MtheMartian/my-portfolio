@@ -38,18 +38,83 @@
         </nav>
       </div>
     </header>
-    <section id="about-me-section">
-      <div id="languages">
+    <section id="about-me-section" class="section">
+      <div id="languages" class="section__content" data-content>
         <div>JS</div>
         <div>Node</div>
         <div>EJS</div>
         <div>React</div>
       </div>
       <div id="about-me">
+        <div id="about-me-title">
+          <h1>About Me</h1>
+        </div>
+        <div id="about-me-text">
+          <p>Hello, I'm Marvin Altidor.</p>
+        </div>
+        <div id="picture">
+          <img src="/images/martian.png">
+        </div>
+        <div id="links-to-me">
+          <div class="logos">
+            <img src="/images/GitHub-Mark-32px.png">
+          </div>
+          <div class="logos">
+            <img src="/images/LI-In-Bug.png" id="linkedin-logo">
+          </div>
+          <div class="logos">
+            <img src="/images/2021 Twitter logo - blue.png" id="twitter-logo">
+          </div>
+        </div>
       </div>
     </section>
-    <section id="projects-section">
+    <section id="projects-section" class="section">
+      <div class="project">
+        <div class="project-title">
+          <h2>One Piece Realm</h2>
+        </div>
+        <div class="project-image">
+          <img src="/images/onepiece.jpg">
+        </div>
+        <div class="project-description">
+          <p>Create One Piece character cards and share them with other
+            users. You'll get to learn about the One Piece universe!
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">
+          <h2>War Card Game</h2>
+        </div>
+        <div class="project-image">
+          <img src="/images/war.jpg">
+        </div>
+        <div class="project-description">
+          <p>One of my first projects. This is a card game called "WAR!", where players
+            draw cards adn the highest ranked card wins. The player with the most cards wins. 
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">
+          <h2>NASA Apod</h2>
+        </div>
+        <div class="project-image">
+          <img src="/images/nasa.jpg">
+        </div>
+        <div class="project-description">
+          <p>Get a picture of the day from NASA!</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact-me-section" class="section">
+      <form action="https://formsubmit.co/blackyuma.kugar@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Name">
+        <input type="email" name="email" required placeholder="Email">
+        <button type="submit">Send</button>
+   </form>
     </section>
   </main>
+  <script src="/js/main.js"></script>
 </body>
 </html>
